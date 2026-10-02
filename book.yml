@@ -1,0 +1,25 @@
+title: Reading PIV
+description: How particle image velocimetry really computes a velocity, as live marimo notebooks.
+authors:
+  - name: Alex Liberzon
+
+repo: https://github.com/alexlib/piv-book
+branch: main
+
+launch_buttons:
+  molab: true
+  github: true
+  download: true
+
+# Notebook dependencies come from pyproject.toml (run everything with `uv run`).
+dependencies:
+  mode: env
+
+toc:
+  - file: content/intro.md
+  - section: Chapters
+    children:
+      - file: content/pipeline.py
+        mode: wasm
+      - file: content/correlation.py
+        mode: wasm

@@ -1,4 +1,4 @@
-# Reading PIV
+# Open Source PIV
 
 A live book on the principles of particle image velocimetry processing, so
 new users can choose parameters and read results with understanding. Each

@@ -1,4 +1,4 @@
-# Reading PIV
+# Open Source PIV
 
 How particle image velocimetry really computes a velocity.
 
